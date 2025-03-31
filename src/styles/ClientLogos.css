@@ -1,0 +1,30 @@
+.client-logos {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-item {
+  padding: 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  font-weight: 900;
+}
+
+.logo-item:hover {
+  opacity: 1;
+}
+.ClientName-txt{
+  font-weight: 900;
+  font-size: larger;
+  width: 100%;
+}
+

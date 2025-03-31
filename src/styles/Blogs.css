@@ -1,0 +1,140 @@
+.blogs-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.blogs-main {
+  padding-top: 100px;
+}
+
+.blogs-hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.blogs-hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.blogs-hero p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.blogs-filter {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-buttons button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #666;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  border: 1px solid #ddd;
+}
+
+.filter-buttons button:hover {
+  background-color: #f0f0f0;
+}
+
+.filter-buttons button.active {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 0 20px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.blog-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.blog-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover .blog-image img {
+  transform: scale(1.05);
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+.blog-category {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.blog-content h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.blog-content p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.blog-date {
+  font-size: 0.8rem;
+  color: #999;
+}
+
