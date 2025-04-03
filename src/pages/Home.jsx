@@ -53,7 +53,7 @@ function Home() {
             <h1>
               Weaving words that touch hearts,              <br />
               build brands, and               <br />
-              leave a mark.            </h1>
+              leave a lasting mark.            </h1>
             <Link to="/blogs" className="cta-button">
               Latest Blogs
               <svg
@@ -80,9 +80,9 @@ function Home() {
         {/* Collaborate Section */}
         <section className="collaborate-section hidden">
           <h2>
-            Collaborate with brands and agencies
+            Collaborating with brands and agencies
             <br />
-            to create impactful results.
+            to derive impactful results.
           </h2>
 
           <div className="services-tag">

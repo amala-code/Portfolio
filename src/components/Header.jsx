@@ -81,6 +81,7 @@ CV</a></button>
           <a href="https://www.instagram.com/insinex_writer08?igsh=MXAzZzd6NDAxMWo1Mg==" target="_blank" rel="noopener noreferrer">
             Instagram
           </a>
+          
         </div>
       </nav>
     </header>

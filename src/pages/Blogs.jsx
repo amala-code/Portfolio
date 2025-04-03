@@ -48,7 +48,7 @@ const blogPosts = [
     id: 5,
     title: "What My Physics Professor Taught Me?",
     excerpt: "What My Physics Professor Taught Me About Authentic Writing—where precision meets creativity, and truth is found in both equations and words.",
-    date: "November 5, 2022",
+    date: "March 20, 2025",
     image: "/images/p.png",
     category: "Writing",
     link: "https://www.linkedin.com/posts/nikhil-joseph-5b8888191_authenticity-in-writing-isnt-just-about-activity-7303449002392350720-d-CK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADYpbSsBoLyHNgvFXRfSIeeOsLDWF7yFYBg"
@@ -57,10 +57,10 @@ const blogPosts = [
     id: 6,
     title: "Not all advises work!",
     excerpt: "Not All Advice Works!—what guides one person to success might lead another astray, reminding us that wisdom is only as good as its relevance to our journey.",
-    date: "October 18, 2022",
+    date: "March 29, 2025",
     image: "/images/a.png",
     category: "Life Lessons",
-    link: "https://www.linkedin.com/posts/nikhil-joseph-5b8888191_storytelling-contentwriting-creativethinking-activity-7310610723359928320-uBkW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADYpbSsBoLyHNgvFXRfSIeeOsLDWF7yFYBg"
+    link: "https://www.linkedin.com/posts/nikhil-joseph-5b8888191_careeradvice-personalgrowth-worklifebalance-activity-7309897019064524803-QEfD?utm_source=share&utm_medium=member_desktop&rcm=ACoAADYpbSsBoLyHNgvFXRfSIeeOsLDWF7yFYBg"
   },
 ]
 
